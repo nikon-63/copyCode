@@ -19,6 +19,11 @@ find "$source_directory" \( -type d -name '.venv' -o -type d -name '.VSCodeCount
     echo "------------------------------------------" >> "$destination_file"
 done
 
+echo "------------------------------------------" >> "$destination_file"
+echo "Copied using copyCode by Thomas Nicolson" >> "$destination_file"
+echo "------------------------------------------" >> "$destination_file"
+
+
 echo "Copied to'$destination_file'"
 
 
